@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		349A09C21AFCBFC40033C01D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09C11AFCBFC40033C01D /* main.m */; };
 		349A09C51AFCBFC40033C01D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09C41AFCBFC40033C01D /* AppDelegate.m */; };
-		349A09C81AFCBFC40033C01D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09C71AFCBFC40033C01D /* FirstViewController.m */; };
-		349A09CB1AFCBFC40033C01D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09CA1AFCBFC40033C01D /* SecondViewController.m */; };
 		349A09CE1AFCBFC40033C01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349A09CC1AFCBFC40033C01D /* Main.storyboard */; };
 		349A09D01AFCBFC40033C01D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349A09CF1AFCBFC40033C01D /* Images.xcassets */; };
 		349A09D31AFCBFC40033C01D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349A09D11AFCBFC40033C01D /* LaunchScreen.xib */; };
 		349A09DF1AFCBFC40033C01D /* MatchedUp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09DE1AFCBFC40033C01D /* MatchedUp2Tests.m */; };
+		349A09EA1AFCC0B10033C01D /* EGGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09E91AFCC0B10033C01D /* EGGLoginViewController.m */; };
+		349A09EE1AFCFE230033C01D /* EGGConstans.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A09ED1AFCFE230033C01D /* EGGConstans.m */; };
+		34AE7CA81B14896800846A5B /* EGGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE7CA71B14896800846A5B /* EGGHomeViewController.m */; };
+		34AE7CAB1B14EDFF00846A5B /* EGGSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE7CAA1B14EDFF00846A5B /* EGGSettingsViewController.m */; };
+		34E182581B160B980097A33F /* EGGEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E182571B160B980097A33F /* EGGEditProfileViewController.m */; };
+		34E1825B1B160F5E0097A33F /* EGGProfileSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1825A1B160F5E0097A33F /* EGGProfileSetupViewController.m */; };
+		60E4FD772F08EA91A203BF84 /* libPods-MatchedUp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD3E497B73B7A6E499A93C1 /* libPods-MatchedUp2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +33,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004EF2D41F1A3EF59627F02A /* Pods-MatchedUp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchedUp2.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatchedUp2/Pods-MatchedUp2.release.xcconfig"; sourceTree = "<group>"; };
 		349A09BC1AFCBFC40033C01D /* MatchedUp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349A09C01AFCBFC40033C01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		349A09C11AFCBFC40033C01D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		349A09C31AFCBFC40033C01D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		349A09C41AFCBFC40033C01D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		349A09C61AFCBFC40033C01D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		349A09C71AFCBFC40033C01D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		349A09C91AFCBFC40033C01D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		349A09CA1AFCBFC40033C01D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		349A09CD1AFCBFC40033C01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		349A09CF1AFCBFC40033C01D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		349A09D21AFCBFC40033C01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		349A09D81AFCBFC40033C01D /* MatchedUp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		349A09DD1AFCBFC40033C01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		349A09DE1AFCBFC40033C01D /* MatchedUp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUp2Tests.m; sourceTree = "<group>"; };
+		349A09E81AFCC0B10033C01D /* EGGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGLoginViewController.h; sourceTree = "<group>"; };
+		349A09E91AFCC0B10033C01D /* EGGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGLoginViewController.m; sourceTree = "<group>"; };
+		349A09EB1AFCC2840033C01D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		349A09EC1AFCFE230033C01D /* EGGConstans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGConstans.h; sourceTree = "<group>"; };
+		349A09ED1AFCFE230033C01D /* EGGConstans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGConstans.m; sourceTree = "<group>"; };
+		34AE7CA61B14896800846A5B /* EGGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGHomeViewController.h; sourceTree = "<group>"; };
+		34AE7CA71B14896800846A5B /* EGGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGHomeViewController.m; sourceTree = "<group>"; };
+		34AE7CA91B14EDFF00846A5B /* EGGSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGSettingsViewController.h; sourceTree = "<group>"; };
+		34AE7CAA1B14EDFF00846A5B /* EGGSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGSettingsViewController.m; sourceTree = "<group>"; };
+		34E182561B160B980097A33F /* EGGEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGEditProfileViewController.h; sourceTree = "<group>"; };
+		34E182571B160B980097A33F /* EGGEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGEditProfileViewController.m; sourceTree = "<group>"; };
+		34E182591B160F5E0097A33F /* EGGProfileSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGProfileSetupViewController.h; sourceTree = "<group>"; };
+		34E1825A1B160F5E0097A33F /* EGGProfileSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGProfileSetupViewController.m; sourceTree = "<group>"; };
+		67720A268FB05DB8BC56C247 /* Pods-MatchedUp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchedUp2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MatchedUp2/Pods-MatchedUp2.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD3E497B73B7A6E499A93C1 /* libPods-MatchedUp2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MatchedUp2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E4FD772F08EA91A203BF84 /* libPods-MatchedUp2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091371886D37A8F17417B0D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CD3E497B73B7A6E499A93C1 /* libPods-MatchedUp2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		349A09B31AFCBFC40033C01D = {
 			isa = PBXGroup;
 			children = (
 				349A09BE1AFCBFC40033C01D /* MatchedUp2 */,
 				349A09DB1AFCBFC40033C01D /* MatchedUp2Tests */,
 				349A09BD1AFCBFC40033C01D /* Products */,
+				4547DD2539D4032D2C8E1BE3 /* Pods */,
+				091371886D37A8F17417B0D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,10 +114,16 @@
 			children = (
 				349A09C31AFCBFC40033C01D /* AppDelegate.h */,
 				349A09C41AFCBFC40033C01D /* AppDelegate.m */,
-				349A09C61AFCBFC40033C01D /* FirstViewController.h */,
-				349A09C71AFCBFC40033C01D /* FirstViewController.m */,
-				349A09C91AFCBFC40033C01D /* SecondViewController.h */,
-				349A09CA1AFCBFC40033C01D /* SecondViewController.m */,
+				349A09E81AFCC0B10033C01D /* EGGLoginViewController.h */,
+				349A09E91AFCC0B10033C01D /* EGGLoginViewController.m */,
+				34AE7CA61B14896800846A5B /* EGGHomeViewController.h */,
+				34AE7CA71B14896800846A5B /* EGGHomeViewController.m */,
+				34AE7CA91B14EDFF00846A5B /* EGGSettingsViewController.h */,
+				34AE7CAA1B14EDFF00846A5B /* EGGSettingsViewController.m */,
+				34E182561B160B980097A33F /* EGGEditProfileViewController.h */,
+				34E182571B160B980097A33F /* EGGEditProfileViewController.m */,
+				34E182591B160F5E0097A33F /* EGGProfileSetupViewController.h */,
+				34E1825A1B160F5E0097A33F /* EGGProfileSetupViewController.m */,
 				349A09CC1AFCBFC40033C01D /* Main.storyboard */,
 				349A09CF1AFCBFC40033C01D /* Images.xcassets */,
 				349A09D11AFCBFC40033C01D /* LaunchScreen.xib */,
@@ -101,6 +135,9 @@
 		349A09BF1AFCBFC40033C01D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				349A09EB1AFCC2840033C01D /* PrefixHeader.pch */,
+				349A09EC1AFCFE230033C01D /* EGGConstans.h */,
+				349A09ED1AFCFE230033C01D /* EGGConstans.m */,
 				349A09C01AFCBFC40033C01D /* Info.plist */,
 				349A09C11AFCBFC40033C01D /* main.m */,
 			);
@@ -124,6 +161,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4547DD2539D4032D2C8E1BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67720A268FB05DB8BC56C247 /* Pods-MatchedUp2.debug.xcconfig */,
+				004EF2D41F1A3EF59627F02A /* Pods-MatchedUp2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 349A09E21AFCBFC40033C01D /* Build configuration list for PBXNativeTarget "MatchedUp2" */;
 			buildPhases = (
+				600BFCD0B03230BDE6BFA623 /* Check Pods Manifest.lock */,
 				349A09B81AFCBFC40033C01D /* Sources */,
 				349A09B91AFCBFC40033C01D /* Frameworks */,
 				349A09BA1AFCBFC40033C01D /* Resources */,
+				C85151E6DF04F8F69D283428 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,14 +267,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		600BFCD0B03230BDE6BFA623 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85151E6DF04F8F69D283428 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MatchedUp2/Pods-MatchedUp2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		349A09B81AFCBFC40033C01D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349A09CB1AFCBFC40033C01D /* SecondViewController.m in Sources */,
+				349A09EE1AFCFE230033C01D /* EGGConstans.m in Sources */,
+				34AE7CAB1B14EDFF00846A5B /* EGGSettingsViewController.m in Sources */,
+				34AE7CA81B14896800846A5B /* EGGHomeViewController.m in Sources */,
 				349A09C51AFCBFC40033C01D /* AppDelegate.m in Sources */,
-				349A09C81AFCBFC40033C01D /* FirstViewController.m in Sources */,
+				349A09EA1AFCC0B10033C01D /* EGGLoginViewController.m in Sources */,
+				34E182581B160B980097A33F /* EGGEditProfileViewController.m in Sources */,
+				34E1825B1B160F5E0097A33F /* EGGProfileSetupViewController.m in Sources */,
 				349A09C21AFCBFC40033C01D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +436,12 @@
 		};
 		349A09E31AFCBFC40033C01D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67720A268FB05DB8BC56C247 /* Pods-MatchedUp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MatchedUp2/PrefixHeader.pch;
 				INFOPLIST_FILE = MatchedUp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,9 +449,12 @@
 		};
 		349A09E41AFCBFC40033C01D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004EF2D41F1A3EF59627F02A /* Pods-MatchedUp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MatchedUp2/PrefixHeader.pch;
 				INFOPLIST_FILE = MatchedUp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,6 +513,7 @@
 				349A09E41AFCBFC40033C01D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349A09E51AFCBFC40033C01D /* Build configuration list for PBXNativeTarget "MatchedUp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +522,7 @@
 				349A09E71AFCBFC40033C01D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
